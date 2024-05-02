@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+		<!--[if lt IE 9]>
+	<script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+<![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+	<style>
+	body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #FA5858;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+.menu-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+    max-width: 100%;
+}
+
+footer {
+    background-color: #FA5858;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+	</style>
+    <title>Doceria - Doces e Delícias</title>
+</head>
+<body>
+    <header>
+        <h1>Doceria - Doces e Delícias</h1>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#sabores"> Sabores</a></li>
+                <li><a href="#contato"> Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <div class="menu-item">
+            <h3>Bolo de Chocolate</h3>
+            <p>Bolo de chocolate delicioso com cobertura cremosa.</p>
+            <p>Preço: R$ 25,00</p>
+        </div>
+        <div class="menu-item">
+            <h3>Torta de Morango</h3>
+            <p>Torta recheada com morangos frescos e creme.</p>
+            <p>Preço: R$ 20,00</p>
+        </div>
+		<div class="menu-item">
+                <h3>Torta de Morango</h3>
+                <p>Torta recheada com morangos frescos e creme.</p>
+                <p>Preço: R$ 20,00</p>
+        </div>
+		<div class="menu-item">
+              <h3>Brigadeiro Gourmet</h3>
+                <p>Deliciosos brigadeiros gourmet de diversos sabores.</p>
+                <p>Preço: R$ 1,50 (cada)</p>
+        </div>
+		<div class="menu-item">
+            <h3>Pudim de Leite</h3>
+            <p>Pudim  clássico de leite condensado com calda de caramelo.</p>
+            <p>Preço: R$ 15,00</p>
+        </div>
+		 <div class="menu-item">
+            <h3>Macarons Sortidos</h3>
+            <p>Uma seleção de macarons com sabores variados.</p>
+            <p>Preço: R$ 2,00 (cada)</p>
+        </div>
+    </section>
+
+    <section id="sabores">
+	<div class="menu-item">
+        <h2>Sabores</h2>
+        <p>Nossas pizzas são preparadas com os melhores ingredientes frescos e saborosos.</p>
+        <p>Experimente nossos sabores únicos e irresistíveis!</p>
+    </section>
+
+    <section id="contato">
+	<div class="menu-item">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco para fazer seu pedido ou tirar suas dúvidas:</p>
+        <p>Telefone: (41) 99999-9999</p>
+        <p>Email: contato@docesedelicias.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Doceria - Doces e Delícias. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
